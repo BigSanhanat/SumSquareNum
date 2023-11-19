@@ -23,10 +23,6 @@ class ViewController: UIViewController {
         if let number = Int(numberTextField.text ?? "0") {
             viewModel.calculateWithNumber(number: number)
         }
-        
-    }
-    
-    @IBAction func resetButton_Clicked(_ sender: Any) {
     }
 }
 
