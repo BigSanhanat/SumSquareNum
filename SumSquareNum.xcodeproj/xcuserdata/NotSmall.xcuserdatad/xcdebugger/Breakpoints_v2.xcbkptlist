@@ -7,155 +7,77 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "0774524A-652D-4D13-8EA0-DBD20BD61A7E"
+            uuid = "4D29F6B5-0CED-4F3B-AACC-C8F42B92A09E"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SumSquareNum/ViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
-            landmarkName = "minusWith(squareNum:)"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
+            landmarkName = "findBestSolution()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "0774524A-652D-4D13-8EA0-DBD20BD61A7E - f20241a173e08a6e"
+                  uuid = "4D29F6B5-0CED-4F3B-AACC-C8F42B92A09E - c5d26b15e40288ca"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "SumSquareNum.ViewModel.minusWith(squareNum: Swift.Array&lt;Swift.Int&gt;, number: Swift.Int) -&gt; ()"
+                  symbolName = "SumSquareNum.ViewModel.findBestSolution() -&gt; ()"
                   moduleName = "SumSquareNum"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/NotSmall/Documents/Sanha/Coding/SumSquareNum/SumSquareNum/ViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "46"
-                  endingLineNumber = "46"
-                  offsetFromSymbolStart = "1016">
+                  startingLineNumber = "135"
+                  endingLineNumber = "135"
+                  offsetFromSymbolStart = "160">
                </Location>
                <Location
-                  uuid = "0774524A-652D-4D13-8EA0-DBD20BD61A7E - 3b13eabf6e43adc6"
+                  uuid = "4D29F6B5-0CED-4F3B-AACC-C8F42B92A09E - c5d26b15e40288ca"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "SumSquareNum.ViewModel.minusWith(squareNum: Swift.Array&lt;Swift.Int&gt;) -&gt; ()"
+                  symbolName = "SumSquareNum.ViewModel.findBestSolution() -&gt; ()"
                   moduleName = "SumSquareNum"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/NotSmall/Documents/Sanha/Coding/SumSquareNum/SumSquareNum/ViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "46"
-                  endingLineNumber = "46"
-                  offsetFromSymbolStart = "1036">
+                  startingLineNumber = "135"
+                  endingLineNumber = "135"
+                  offsetFromSymbolStart = "256">
                </Location>
                <Location
-                  uuid = "0774524A-652D-4D13-8EA0-DBD20BD61A7E - 3b13eabf6e43adc6"
+                  uuid = "4D29F6B5-0CED-4F3B-AACC-C8F42B92A09E - c5d26b15e4028e5e"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "SumSquareNum.ViewModel.minusWith(squareNum: Swift.Array&lt;Swift.Int&gt;) -&gt; ()"
+                  symbolName = "SumSquareNum.ViewModel.findBestSolution() -&gt; ()"
                   moduleName = "SumSquareNum"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/NotSmall/Documents/Sanha/Coding/SumSquareNum/SumSquareNum/ViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "46"
-                  endingLineNumber = "46"
-                  offsetFromSymbolStart = "1004">
+                  startingLineNumber = "147"
+                  endingLineNumber = "147"
+                  offsetFromSymbolStart = "160">
                </Location>
                <Location
-                  uuid = "0774524A-652D-4D13-8EA0-DBD20BD61A7E - 3b13eabf6e43adc6"
+                  uuid = "4D29F6B5-0CED-4F3B-AACC-C8F42B92A09E - c5d26b15e4028e5e"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "SumSquareNum.ViewModel.minusWith(squareNum: Swift.Array&lt;Swift.Int&gt;) -&gt; ()"
+                  symbolName = "SumSquareNum.ViewModel.findBestSolution() -&gt; ()"
                   moduleName = "SumSquareNum"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/NotSmall/Documents/Sanha/Coding/SumSquareNum/SumSquareNum/ViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "46"
-                  endingLineNumber = "46"
-                  offsetFromSymbolStart = "1012">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "F8ABD66A-EBFA-402F-A6AD-A6A6ACD5F5EC"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SumSquareNum/ViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "minusWith(squareNum:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "F8ABD66A-EBFA-402F-A6AD-A6A6ACD5F5EC - f20241a173e08a09"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SumSquareNum.ViewModel.minusWith(squareNum: Swift.Array&lt;Swift.Int&gt;, number: Swift.Int) -&gt; ()"
-                  moduleName = "SumSquareNum"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/NotSmall/Documents/Sanha/Coding/SumSquareNum/SumSquareNum/ViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "43"
-                  endingLineNumber = "43"
-                  offsetFromSymbolStart = "880">
-               </Location>
-               <Location
-                  uuid = "F8ABD66A-EBFA-402F-A6AD-A6A6ACD5F5EC - 3b13eabf6e43ada1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SumSquareNum.ViewModel.minusWith(squareNum: Swift.Array&lt;Swift.Int&gt;) -&gt; ()"
-                  moduleName = "SumSquareNum"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/NotSmall/Documents/Sanha/Coding/SumSquareNum/SumSquareNum/ViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "43"
-                  endingLineNumber = "43"
-                  offsetFromSymbolStart = "856">
-               </Location>
-               <Location
-                  uuid = "F8ABD66A-EBFA-402F-A6AD-A6A6ACD5F5EC - 3b13eabf6e43ada1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SumSquareNum.ViewModel.minusWith(squareNum: Swift.Array&lt;Swift.Int&gt;) -&gt; ()"
-                  moduleName = "SumSquareNum"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/NotSmall/Documents/Sanha/Coding/SumSquareNum/SumSquareNum/ViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "43"
-                  endingLineNumber = "43"
-                  offsetFromSymbolStart = "824">
-               </Location>
-               <Location
-                  uuid = "F8ABD66A-EBFA-402F-A6AD-A6A6ACD5F5EC - 3b13eabf6e43ada1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SumSquareNum.ViewModel.minusWith(squareNum: Swift.Array&lt;Swift.Int&gt;) -&gt; ()"
-                  moduleName = "SumSquareNum"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/NotSmall/Documents/Sanha/Coding/SumSquareNum/SumSquareNum/ViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "43"
-                  endingLineNumber = "43"
-                  offsetFromSymbolStart = "832">
+                  startingLineNumber = "147"
+                  endingLineNumber = "147"
+                  offsetFromSymbolStart = "256">
                </Location>
             </Locations>
          </BreakpointContent>
