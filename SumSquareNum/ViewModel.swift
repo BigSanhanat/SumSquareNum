@@ -34,38 +34,32 @@ class ViewModel {
         } while n*n <= number
         
         minusWith(squareNum: squareNumbers)
-//        print(squareNumber)
     }
     
     private func minusWith(squareNum: [Int]) {
-        for i in squareNum {
-            print("\(self.number) \(i) \(self.number - i)")
-            if i <= self.number {
-                resultNum.append(i)
-                self.number = self.number - i
-                if self.number > 0 {
+        repeat {
+            for i in squareNum {
+                if i <= self.number {
+                    resultNum.append(i)
+                    self.number = self.number - i
+                } else if number > 0 && number < 4 {
+                    resultNum.append(1)
+                    self.number = self.number - 1
+                } else if number > 0 {
                     minusWith(squareNum: squareNum)
-                } else {
-                    viewDelegate.setOutputText(text: "Output : \(resultNum.count)")
-                    prepareExplanation()
-//                    return
-                }
-            } else if number > 0 && number < 4 {
-                resultNum.append(1)
-                self.number = self.number - 1
-                if self.number > 0 {
-                    minusWith(squareNum: squareNum)
-                } else {
-                    viewDelegate.setOutputText(text: "Output : \(resultNum.count)")
-                    prepareExplanation()
-//                    return
                 }
             }
-        }
+        } while (self.number > 0)
+        
+        viewDelegate.setOutputText(text: "Output : \(resultNum.count)")
+        prepareExplanation()
+
     }
     
     func prepareExplanation() {
-        let text = resultNum.reversed().compactMap({"\($0)"}).joined(separator: " + ")
+        let sortResult = resultNum.sorted(by: {$0 < $1})
+        let resultString = sortResult.compactMap({"\($0)"})
+        let text = resultString.joined(separator: " + ")
         let explanationText = "Explanation : \(n) = \(text)."
         viewDelegate.setExplanation(text: explanationText)
     }
