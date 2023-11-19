@@ -26,7 +26,7 @@ class ViewModel {
         self.number = number
         resultNum = []
         var squareNumbers = [Int]()
-        var n = 1
+        var n = 2
         repeat {
             let squareN = n*n
             squareNumbers.append(squareN)
@@ -38,11 +38,21 @@ class ViewModel {
     }
     
     private func minusWith(squareNum: [Int]) {
-        for i in squareNum.reversed() {
+        for i in squareNum {
             print("\(self.number) \(i) \(self.number - i)")
             if i <= self.number {
                 resultNum.append(i)
                 self.number = self.number - i
+                if self.number > 0 {
+                    minusWith(squareNum: squareNum)
+                } else {
+                    viewDelegate.setOutputText(text: "Output : \(resultNum.count)")
+                    prepareExplanation()
+//                    return
+                }
+            } else if number > 0 && number < 4 {
+                resultNum.append(1)
+                self.number = self.number - 1
                 if self.number > 0 {
                     minusWith(squareNum: squareNum)
                 } else {
