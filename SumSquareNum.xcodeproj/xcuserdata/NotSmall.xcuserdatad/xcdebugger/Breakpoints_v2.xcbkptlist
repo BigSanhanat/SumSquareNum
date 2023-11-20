@@ -3,4 +3,112 @@
    uuid = "AF3B4CA9-3810-477A-9875-40CEB9E583D2"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D29F6B5-0CED-4F3B-AACC-C8F42B92A09E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SumSquareNum/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "151"
+            endingLineNumber = "151">
+            <Locations>
+               <Location
+                  uuid = "4D29F6B5-0CED-4F3B-AACC-C8F42B92A09E - c5d26b15e40288ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SumSquareNum.ViewModel.findBestSolution() -&gt; ()"
+                  moduleName = "SumSquareNum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/NotSmall/Documents/Sanha/Coding/SumSquareNum/SumSquareNum/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "135"
+                  endingLineNumber = "135"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "4D29F6B5-0CED-4F3B-AACC-C8F42B92A09E - c5d26b15e40288ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SumSquareNum.ViewModel.findBestSolution() -&gt; ()"
+                  moduleName = "SumSquareNum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/NotSmall/Documents/Sanha/Coding/SumSquareNum/SumSquareNum/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "135"
+                  endingLineNumber = "135"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  uuid = "4D29F6B5-0CED-4F3B-AACC-C8F42B92A09E - c5d26b15e4028e5e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SumSquareNum.ViewModel.findBestSolution() -&gt; ()"
+                  moduleName = "SumSquareNum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/NotSmall/Documents/Sanha/Coding/SumSquareNum/SumSquareNum/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "147"
+                  endingLineNumber = "147"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "4D29F6B5-0CED-4F3B-AACC-C8F42B92A09E - c5d26b15e4028e5e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SumSquareNum.ViewModel.findBestSolution() -&gt; ()"
+                  moduleName = "SumSquareNum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/NotSmall/Documents/Sanha/Coding/SumSquareNum/SumSquareNum/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "147"
+                  endingLineNumber = "147"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  uuid = "4D29F6B5-0CED-4F3B-AACC-C8F42B92A09E - c5d26b15e4028eda"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SumSquareNum.ViewModel.findBestSolution() -&gt; ()"
+                  moduleName = "SumSquareNum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/NotSmall/Documents/Sanha/Coding/SumSquareNum/SumSquareNum/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "151"
+                  endingLineNumber = "151"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "4D29F6B5-0CED-4F3B-AACC-C8F42B92A09E - c5d26b15e4028eda"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SumSquareNum.ViewModel.findBestSolution() -&gt; ()"
+                  moduleName = "SumSquareNum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/NotSmall/Documents/Sanha/Coding/SumSquareNum/SumSquareNum/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "151"
+                  endingLineNumber = "151"
+                  offsetFromSymbolStart = "256">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

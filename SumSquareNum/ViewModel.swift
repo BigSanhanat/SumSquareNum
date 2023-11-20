@@ -51,12 +51,13 @@ class ViewModel {
             }
         } while (self.number > 0)
         
-        viewDelegate.setOutputText(text: "Output : \(resultNum.count)")
+        //DISPLAY RESULT
         prepareExplanation()
 
     }
     
     func prepareExplanation() {
+        viewDelegate.setOutputText(text: "Output : \(resultNum.count)")
         let sortResult = resultNum.sorted(by: {$0 < $1})
         let resultString = sortResult.compactMap({"\($0)"})
         let text = resultString.joined(separator: " + ")
