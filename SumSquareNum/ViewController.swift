@@ -7,33 +7,54 @@
 
 import UIKit
 
+protocol ViewControllerOutput {
+    func calculateNumber(request: CalculateRequest)
+}
+
+extension ViewInteractor: ViewControllerOutput {
+    
+}
+
+extension ViewPresenter: ViewInteractorOutput {
+    
+}
+
 class ViewController: UIViewController {
     
     @IBOutlet weak var numberTextField: UITextField!
     @IBOutlet weak var outputLabel: UILabel!
     @IBOutlet weak var explanation: UILabel!
-    var viewModel: ViewModel! = nil
+    
+    var output: ViewControllerOutput!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        viewModel = ViewModel(viewDelegate: self)
+//        viewModel = ViewModel(viewDelegate: self)
+        configure()
+    }
+    
+    func configure() {
+        let presenter = ViewPresenter()
+        presenter.output = self
+        
+        let interactor = ViewInteractor()
+        interactor.output = presenter
+        
+        output = interactor
     }
 
     @IBAction func calculateButton_Clicked(_ sender: Any) {
         if let number = Int(numberTextField.text ?? "0") {
-            viewModel.calculateWithNumber(number: number)
+            let request = CalculateRequest(number: number)
+            output.calculateNumber(request: request)
         }
     }
 }
 
-extension ViewController: ViewModelDelegate {
-    func setOutputText(text: String) {
-        outputLabel.text = text
+extension ViewController: ViewPresenterOutput {
+    func displayResult(viewModel: CalculateViewModel) {
+        outputLabel.text = viewModel.output
+        explanation.text = viewModel.explanation
     }
-    
-    func setExplanation(text: String) {
-        explanation.text = text
-    }
-    
-    
 }

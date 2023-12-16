@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D376AF192B2DA09D0063E96A /* ViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D376AF182B2DA09D0063E96A /* ViewInteractor.swift */; };
+		D376AF1D2B2DA2C20063E96A /* ViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D376AF1C2B2DA2C20063E96A /* ViewPresenter.swift */; };
+		D376AF1F2B2DA4680063E96A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = D376AF1E2B2DA4680063E96A /* Models.swift */; };
 		D3A670D72B08923E003FFDA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A670D62B08923E003FFDA2 /* AppDelegate.swift */; };
 		D3A670D92B08923E003FFDA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A670D82B08923E003FFDA2 /* SceneDelegate.swift */; };
 		D3A670DB2B08923E003FFDA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A670DA2B08923E003FFDA2 /* ViewController.swift */; };
@@ -16,7 +19,6 @@
 		D3A670EE2B08923F003FFDA2 /* SumSquareNumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A670ED2B08923F003FFDA2 /* SumSquareNumTests.swift */; };
 		D3A670F82B08923F003FFDA2 /* SumSquareNumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A670F72B08923F003FFDA2 /* SumSquareNumUITests.swift */; };
 		D3A670FA2B08923F003FFDA2 /* SumSquareNumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A670F92B08923F003FFDA2 /* SumSquareNumUITestsLaunchTests.swift */; };
-		D3A671072B08925D003FFDA2 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A671062B08925D003FFDA2 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D376AF182B2DA09D0063E96A /* ViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewInteractor.swift; sourceTree = "<group>"; };
+		D376AF1C2B2DA2C20063E96A /* ViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPresenter.swift; sourceTree = "<group>"; };
+		D376AF1E2B2DA4680063E96A /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		D3A670D32B08923E003FFDA2 /* SumSquareNum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SumSquareNum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3A670D62B08923E003FFDA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3A670D82B08923E003FFDA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +55,6 @@
 		D3A670F32B08923F003FFDA2 /* SumSquareNumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SumSquareNumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3A670F72B08923F003FFDA2 /* SumSquareNumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumSquareNumUITests.swift; sourceTree = "<group>"; };
 		D3A670F92B08923F003FFDA2 /* SumSquareNumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumSquareNumUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		D3A671062B08925D003FFDA2 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +112,9 @@
 				D3A670DF2B08923F003FFDA2 /* Assets.xcassets */,
 				D3A670E12B08923F003FFDA2 /* LaunchScreen.storyboard */,
 				D3A670E42B08923F003FFDA2 /* Info.plist */,
-				D3A671062B08925D003FFDA2 /* ViewModel.swift */,
+				D376AF182B2DA09D0063E96A /* ViewInteractor.swift */,
+				D376AF1C2B2DA2C20063E96A /* ViewPresenter.swift */,
+				D376AF1E2B2DA4680063E96A /* Models.swift */,
 			);
 			path = SumSquareNum;
 			sourceTree = "<group>";
@@ -261,9 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D376AF192B2DA09D0063E96A /* ViewInteractor.swift in Sources */,
 				D3A670DB2B08923E003FFDA2 /* ViewController.swift in Sources */,
+				D376AF1D2B2DA2C20063E96A /* ViewPresenter.swift in Sources */,
+				D376AF1F2B2DA4680063E96A /* Models.swift in Sources */,
 				D3A670D72B08923E003FFDA2 /* AppDelegate.swift in Sources */,
-				D3A671072B08925D003FFDA2 /* ViewModel.swift in Sources */,
 				D3A670D92B08923E003FFDA2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

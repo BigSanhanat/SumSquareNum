@@ -1,27 +1,27 @@
 //
-//  ViewModel.swift
+//  ViewInteractor.swift
 //  SumSquareNum
 //
-//  Created by Sanhanat Ngamchaiwong on 18/11/2566 BE.
+//  Created by Sanhanat Ngamchaiwong on 16/12/2566 BE.
 //
 
 import Foundation
 
-protocol ViewModelDelegate: AnyObject {
-    func setOutputText(text: String)
-    func setExplanation(text: String)
+protocol ViewInteractorInput {
+    func calculateNumber(request: CalculateRequest)
 }
 
-class ViewModel {
-    var viewDelegate: ViewModelDelegate! = nil
+protocol ViewInteractorOutput {
+    func presentResult(response: CalculateResponse)
+}
+
+class ViewInteractor: ViewInteractorInput {
+    var output: ViewInteractorOutput!
     var n = ""
     var number = 0
     var resultNum = [Int]()
-    init(viewDelegate: ViewModelDelegate) {
-        self.viewDelegate = viewDelegate
-    }
     
-    func calculateWithNumber(number: Int) {
+    private func calculateWithNumber(number: Int) {
         n = "\(number)"
         self.number = number
         resultNum = []
@@ -52,16 +52,12 @@ class ViewModel {
         } while (self.number > 0)
         
         //DISPLAY RESULT
-        prepareExplanation()
-
+        let response = CalculateResponse(source: n, result: resultNum)
+        output.presentResult(response: response)
     }
     
-    func prepareExplanation() {
-        viewDelegate.setOutputText(text: "Output : \(resultNum.count)")
-        let sortResult = resultNum.sorted(by: {$0 < $1})
-        let resultString = sortResult.compactMap({"\($0)"})
-        let text = resultString.joined(separator: " + ")
-        let explanationText = "Explanation : \(n) = \(text)."
-        viewDelegate.setExplanation(text: explanationText)
+    func calculateNumber(request: CalculateRequest) {
+        calculateWithNumber(number: request.number)
     }
+
 }
