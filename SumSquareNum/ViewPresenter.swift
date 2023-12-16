@@ -15,6 +15,10 @@ protocol ViewPresenterOutput: AnyObject {
     func displayResult(viewModel: CalculateViewModel)
 }
 
+extension ViewPresenter: ViewInteractorOutput {
+    
+}
+
 class ViewPresenter: ViewPresenterInput {
     weak var output: ViewPresenterOutput!
     

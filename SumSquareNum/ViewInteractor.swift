@@ -15,6 +15,10 @@ protocol ViewInteractorOutput {
     func presentResult(response: CalculateResponse)
 }
 
+extension ViewInteractor: ViewControllerOutput {
+    
+}
+
 class ViewInteractor: ViewInteractorInput {
     var output: ViewInteractorOutput!
     var n = ""

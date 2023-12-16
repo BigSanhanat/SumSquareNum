@@ -11,14 +11,6 @@ protocol ViewControllerOutput {
     func calculateNumber(request: CalculateRequest)
 }
 
-extension ViewInteractor: ViewControllerOutput {
-    
-}
-
-extension ViewPresenter: ViewInteractorOutput {
-    
-}
-
 class ViewController: UIViewController {
     
     @IBOutlet weak var numberTextField: UITextField!
